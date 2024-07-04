@@ -1,0 +1,82 @@
+.desNav {
+  background: linear-gradient(134.76deg, rgba(204, 122, 252, 0.35) -59.67%, rgba(55, 0, 90, 0.35) 100%);
+  width: 66%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 21px 0px;
+  border-radius: 0px 0px 0px 70px;
+}
+
+.desNav a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.13px;
+}
+
+.desNav button {
+  padding: 6px 16px 6px 16px;
+  border-radius: 20px;
+  background: linear-gradient(134.76deg, #CC7AFC -59.67%, #37005A 100%);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.13px;
+}
+
+.mobNav {
+  display: none;
+}
+
+@media (max-width:764px) {
+  .desNav {
+    display: none;
+  }
+
+  .mobNav {
+    display: flex;
+    background: linear-gradient(134.76deg, rgba(204, 122, 252, 0.35) -59.67%, rgba(55, 0, 90, 0.35) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding: 0px 25px 0px 0px;
+  }
+
+  .mobNavPopup {
+    position: absolute;
+    inset: 0px 0px auto auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(134.76deg, rgba(204, 122, 252, 0.35) -59.67%, rgba(55, 0, 90, 0.35) 100%);
+    transform: translateY(28px);
+    padding: 10px 24px 15px 24px;
+    width: 132px;
+    text-align: center;
+    border-radius: 0px 0px 0px 12px;
+    z-index: 2;
+  }
+
+  .mobNav .menu {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.09px;
+  }
+
+  .mobNavPopup a {
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11.74px;
+  }
+
+  .mobNavPopup button {
+    background: linear-gradient(134.76deg, #CC7AFC -59.67%, #37005A 100%);
+    box-shadow: 4px 4px 4px 0px #0000001A;
+    width: 84px;
+    height: 21.31px;
+    border-radius: 12.54px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.09px;
+  }
+}

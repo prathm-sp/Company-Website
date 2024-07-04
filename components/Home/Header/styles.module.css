@@ -1,0 +1,55 @@
+.container p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: 0.02em;
+}
+
+.headContent {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+}
+
+.headContent .subText {
+  padding-left: 79px;
+}
+
+.headContent .subText2 {
+  padding-left: 135px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 530px;
+  }
+
+  .headContent {
+    width: 100%;
+  }
+
+  .headContent p {
+    font-size: 87px;
+    font-weight: 400;
+    line-height: 133px;
+    letter-spacing: 0.02em;
+  }
+
+  .headContent .subText {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .headContent .subText2 {
+    text-align: right;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 820px) {
+  .headContent p {
+    font-size: 95px;
+  }
+}

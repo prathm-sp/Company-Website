@@ -1,0 +1,50 @@
+.footerContainer {
+  background: linear-gradient(134.76deg, #CC7AFC -59.67%, #37005A 100%);
+  text-align: right;
+  padding: 14px 24px 72px 24px;
+}
+
+.footerContainer .title,
+.footerContainer .title2,
+.footerContainer .title3,
+.footerContainer .title4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.footerContainer .title {
+  padding-right: 61px;
+}
+
+.footerContainer .title2 {
+  padding-right: 50px;
+}
+
+.footerContainer .title4 {
+  padding-right: 35px;
+}
+
+.footerContainer ul {
+  width: fit-content;
+}
+
+.footerContainer li {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 35px;
+  list-style: disc;
+}
+
+@media (min-width: 768px) {
+  .footerContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+  }
+
+  .footerContainer>div {
+    margin-right: 110px;
+  }
+}
